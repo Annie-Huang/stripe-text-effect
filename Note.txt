@@ -1,0 +1,7 @@
+Can I recreate Stripe’s text effect? (https://www.youtube.com/watch?v=neD6rV70Mlk)
+
+https://stripe.com/en-au
+https://github.com/Annie-Huang/stripe-text-effect
+
+------------------------------------------------------------------------------------------
+
