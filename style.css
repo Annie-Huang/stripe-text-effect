@@ -33,7 +33,8 @@ body {
 /* Make two set of text overlap with each other*/
 .hero-title {
   /* Make it a light black color and mix-blend-mode so it can mix the color */
-  color: #555;
+  /*color: #555;*/
+  color: #3a3a3a;
   mix-blend-mode: color-burn;
 
   line-height: 1.1;
@@ -43,9 +44,15 @@ body {
   margin: 0; /* to remove the margin in h1 */
 }
 .hero-title[data-overlay] {
+  mix-blend-mode: revert;
   position: absolute;
   left: 0;
   top: 0;
+
+  /* Override and mix-blend-mode for the overlay, push it to the top and have a dark color, give some opacity so the underneath color can come through (the Stripe website did it in reverse order and with 3 layers) */
+  color: #111;
+  z-index: 2;
+  opacity: 0.3;
 }
 
 .canvas-container {
