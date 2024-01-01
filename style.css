@@ -36,6 +36,7 @@ h1 {
   position: relative;
 }
 .hero-title__overlay {
+  position: absolute;
   left: 0;
   top: 0;
 }

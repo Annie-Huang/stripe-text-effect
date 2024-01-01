@@ -16,3 +16,5 @@ https://bennettfeely.com/clippy/
   ...
   z-index: -1; /* put behind the hero */
 }
+
+The stripe website has the text, then the gradient and then the overlay

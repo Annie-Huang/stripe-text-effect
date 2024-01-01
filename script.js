@@ -1,7 +1,7 @@
 const heroTitle = document.querySelector('.hero-title');
 const heroTitleOverlay = heroTitle.querySelector('span');
 
-heroTitleOverlay.innerText = heroTitle.textContent;
+heroTitleOverlay.innerText = heroTitle.innerText;
 
 // All below is from https://codepen.io/tmrDevelops/pen/vOPZBv
 var c = document.getElementById('canv');
