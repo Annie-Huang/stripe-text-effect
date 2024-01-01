@@ -20,6 +20,9 @@ body {
 }
 
 .hero {
+  /* 0 -1 scale */
+  --effect-strength: 0.5;
+
   position: relative;
   isolation: isolate; /* create a new stacking context, when you use negative z-index, it's always good to have one new stacking context */
   padding: 1em; /* to deal with the collapsing margin top in the <h1> */
@@ -52,7 +55,8 @@ body {
   /* Override and mix-blend-mode for the overlay, push it to the top and have a dark color, give some opacity so the underneath color can come through (the Stripe website did it in reverse order and with 3 layers) */
   color: #111;
   z-index: 2;
-  opacity: 0.3;
+  /*opacity: 0.3;*/
+  opacity: calc(1 - var(--effect-strength));
 }
 
 .canvas-container {
