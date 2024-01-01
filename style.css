@@ -21,6 +21,10 @@ h1 {
   margin-inline: auto;
 }
 
+.semi-transparent-text {
+  mix-blend-mode: difference;
+}
+
 .hero {
   position: relative;
   isolation: isolate; /* create a new stacking context, when you use negative z-index, it's always good to have one new stacking context */
@@ -31,7 +35,7 @@ h1 {
   position: absolute;
   z-index: -1; /* put behind the hero */
   inset: 0;
-  height: 50vh;
+  height: 40vh;
   clip-path: polygon(0 0, 100% 0, 100% 35%, 0% 100%);
 }
 
