@@ -4,5 +4,6 @@ https://stripe.com/en-au
 https://github.com/Annie-Huang/stripe-text-effect
 
 https://codepen.io/tmrDevelops/pen/vOPZBv
+https://bennettfeely.com/clippy/
 ------------------------------------------------------------------------------------------
 

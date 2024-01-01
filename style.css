@@ -15,13 +15,18 @@ h1 {
   max-width: 13ch;
 }
 
-canvas {
-  width: 100%;
-  height: 100%;
-}
-
 .container {
   --max-width: 50rem;
   width: min(100% - 2rem, var(--max-width));
   margin-inline: auto;
+}
+
+.canvas-container {
+  height: 50vh;
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0% 100%);
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
 }
