@@ -36,7 +36,8 @@ var run = function () {
       col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
     }
   }
-  t = t + 0.12;
+  // t = t + 0.12;
+  t = t + 0.01; // slow down the speed
   window.requestAnimationFrame(run);
 };
 
