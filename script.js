@@ -1,5 +1,5 @@
 const heroTitle = document.querySelector('.hero-title');
-const heroTitleOverlay = heroTitle.querySelector('span');
+const heroTitleOverlay = document.querySelector('.hero-title__overlay');
 
 heroTitleOverlay.innerText = heroTitle.innerText;
 
