@@ -3,5 +3,6 @@ Can I recreate Stripe’s text effect? (https://www.youtube.com/watch?v=neD6rV70
 https://stripe.com/en-au
 https://github.com/Annie-Huang/stripe-text-effect
 
+https://codepen.io/tmrDevelops/pen/vOPZBv
 ------------------------------------------------------------------------------------------
 
