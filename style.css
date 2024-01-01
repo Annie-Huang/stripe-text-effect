@@ -9,12 +9,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  line-height: 1.1;
-  font-size: 5rem;
-  max-width: 13ch;
-}
-
 .container {
   --max-width: 50rem;
   width: min(100% - 2rem, var(--max-width));
@@ -31,15 +25,23 @@ h1 {
   padding: 1em; /* to deal with the collapsing margin top in the <h1> */
 }
 
+.hero-title-container {
+  position: relative;
+}
+
 /* Make two set of text overlap with each other*/
 .hero-title {
-  position: relative;
-
   /* Make it a light black color and mix-blend-mode so it can mix the color */
   color: #555;
   mix-blend-mode: color-burn;
+
+  line-height: 1.1;
+  font-size: 5rem;
+  font-weight: 700;
+  max-width: 13ch;
+  margin: 0; /* to remove the margin in h1 */
 }
-.hero-title__overlay {
+.hero-title[data-overlay] {
   position: absolute;
   left: 0;
   top: 0;
