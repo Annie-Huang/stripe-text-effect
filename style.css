@@ -31,6 +31,15 @@ h1 {
   padding: 1em; /* to deal with the collapsing margin top in the <h1> */
 }
 
+/* Make two set of text overlap with each other*/
+.hero-title {
+  position: relative;
+}
+.hero-title__overlay {
+  left: 0;
+  top: 0;
+}
+
 .canvas-container {
   position: absolute;
   z-index: -1; /* put behind the hero */
