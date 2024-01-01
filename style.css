@@ -21,7 +21,14 @@ h1 {
   margin-inline: auto;
 }
 
+.hero {
+  position: relative;
+  padding: 1em; /* to deal with the collapsing margin top in the <h1> */
+}
+
 .canvas-container {
+  position: absolute;
+  inset: 0;
   height: 50vh;
   clip-path: polygon(0 0, 100% 0, 100% 35%, 0% 100%);
 }
