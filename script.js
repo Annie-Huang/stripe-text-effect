@@ -1,4 +1,9 @@
-// all from https://codepen.io/tmrDevelops/pen/vOPZBv
+const heroTitle = document.querySelector('.hero-title');
+const heroTitleOverlay = heroTitle.querySelector('span');
+
+heroTitleOverlay.innerText = heroTitle.textContent;
+
+// All below is from https://codepen.io/tmrDevelops/pen/vOPZBv
 var c = document.getElementById('canv');
 var $ = c.getContext('2d');
 
