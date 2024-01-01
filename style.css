@@ -23,11 +23,13 @@ h1 {
 
 .hero {
   position: relative;
+  isolation: isolate; /* create a new stacking context, when you use negative z-index, it's always good to have one new stacking context */
   padding: 1em; /* to deal with the collapsing margin top in the <h1> */
 }
 
 .canvas-container {
   position: absolute;
+  z-index: -1; /* put behind the hero */
   inset: 0;
   height: 50vh;
   clip-path: polygon(0 0, 100% 0, 100% 35%, 0% 100%);

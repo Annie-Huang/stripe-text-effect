@@ -7,3 +7,12 @@ https://codepen.io/tmrDevelops/pen/vOPZBv
 https://bennettfeely.com/clippy/
 ------------------------------------------------------------------------------------------
 
+.hero {
+  ....
+  isolation: isolate; /* create a new stacking context, when you use negative z-index, it's always good to have one new stacking context */
+}
+
+.canvas-container {
+  ...
+  z-index: -1; /* put behind the hero */
+}
