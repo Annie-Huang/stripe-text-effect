@@ -27,6 +27,7 @@ body {
 
 .hero-title-container {
   position: relative;
+  margin-block: 3rem;
 }
 
 /* Make two set of text overlap with each other*/
